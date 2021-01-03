@@ -1,0 +1,168 @@
+* {
+    overflow: auto;
+}
+body{
+    background-color: #8BA1B8;
+    font-family: Arial;
+    margin: 0;
+}
+p.categorie {
+    background-color: #000000;
+    color: white; 
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+div.container{
+    background-color: white;
+    margin: 0px 10% 60px 10%;
+    padding: 30px;
+    min-width: 350px; 
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);  
+}
+h1 {
+    max-width: 400px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+p.centre{
+    text-align: center;
+    display: inline-block;
+    max-width: 400px; 
+    background: #000; 
+    color:#f1f1f1;
+    padding: 8px 18px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.discription{
+    text-align: center;
+    display: inline-block;
+    max-width: 400px;
+    font-size: 14px;  
+}
+.discription {
+    text-align: center;
+}
+.categorie {
+    text-align: center;
+    display: inline-block;
+    max-width: 400px;
+}
+.centre-partie {
+    margin-bottom: -18px;
+    text-align: center;
+    margin-top: 60px;
+}
+.separateur{
+    width: 100px;
+    height: 1px;
+    background-color: #000000;
+    margin: auto;
+}
+.image {
+    width: 100%;
+}
+.info {
+    position: relative;
+}
+.tab {
+    position: absolute; 
+    width: 100%; 
+    bottom:0%; 
+    color:white; 
+    background:#6C829DC0; 
+    height: 80px;
+}
+.tab th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding: 8px;
+    
+}
+.tab td {
+    font-size: 14px;
+    vertical-align: top;
+}
+.image {
+    display: block;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: #000;
+
+}
+.colum1 {
+    
+    display: inline-block;
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 10%;
+    
+}
+.colum2 {
+
+float: right;
+width: 40%;
+margin-top: 20px;
+
+}
+.titre {
+    text-align: center;
+}
+.colum1 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: #6C829D solid 5px;
+    padding-bottom: 5px;
+}
+.colum2 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: #6C829D solid 5px;
+    padding-bottom: 5px;
+}
+.ing p {
+    text-align: center;
+    font-size: 14px;
+    border: solid 1px lightblue;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0%;
+}
+
+.pre p {
+    background-color: #6C829D;
+    color:white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%; 
+    margin: 0; 
+}
+.pre td {
+    vertical-align: top;
+}
+
+.pre-etape {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.pre tr {
+    height: 40px;
+}
+
+
+
+
